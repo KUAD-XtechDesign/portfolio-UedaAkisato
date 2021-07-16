@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 }
-
 html {
   font-size: 62.5%;
 }
@@ -16,7 +15,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(153, 153, 153);
   position: relative;
 }
 
@@ -29,7 +28,7 @@ body {
 }
 
 body.contents_page {
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 a {
@@ -134,11 +133,11 @@ footer {
 }
 
 .top_eye_catch {
-  height: 500px;
-  background-image: url(../images/top.jpg);
+  height: 600px;
+  background-image: url(../images/空.jpg);
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  background-position: left  bottom;
+  background-attachment:  fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,14 +146,14 @@ footer {
 }
 
 .report_eye_catch {
-  height: 300px;
-  background-image: url(../images/report.jpg);
+  height: 500px;
+  background-image: url(../images/bill.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: yellowgreen;
   font-weight: bold;
 }
 
@@ -212,6 +211,10 @@ report
 .report .outline .txt {
   flex: 1;
   padding-left: 20px;
+}
+
+.outline .pic iframe{
+   width: 100%;
 }
 
 .report h1 {
@@ -277,11 +280,11 @@ case1
   width: 14px;
   height: 14px;
   border-radius: 7px;
-  background-color: #32b100;
+  background-color: #000000;
   left: -7.5px;
   margin-right: 5px;
  }
-  
+
  #case1 li .date{
   width: 60px;
  }
